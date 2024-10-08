@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    width: 100vw;
+    width: 100vw;   
     min-height: 100vh;
-    background-color: beige;
+    background-color: #8ecae6;
     font-family: 'Anek Devanagari', Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +18,7 @@ h1 {
 }
 
 h1, h2 {
-    color: #ff8000f6
+    color: #fffffff6;
 }
 
 h2 {
@@ -23,6 +27,7 @@ h2 {
 
 p, li {
     font-size: 20px;
+    color: #ffffff
 }
 
 .navigation {
@@ -39,4 +44,19 @@ p, li {
     margin: 0;
     padding: 0;
 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card {
+    width: 50vw;
+    margin: 20px auto;
+    background-color: #219EBC;
+    padding: 5px;
+    border-radius: 25px;
 }
