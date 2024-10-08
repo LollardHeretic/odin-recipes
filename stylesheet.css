@@ -79,3 +79,16 @@ img {
 .list {
     padding-left: 15px;
 }
+
+.home-image-container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+}
+
+.home-image {
+    display: inline-block;
+    margin: 5px;
+    padding: 0px;
+}
