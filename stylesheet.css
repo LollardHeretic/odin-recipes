@@ -5,6 +5,9 @@ body {
 
 h1 {
     font-size: 35px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 
 }
 
@@ -18,4 +21,23 @@ h2 {
 
 p, li {
     font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navigation li {    
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+
 }
